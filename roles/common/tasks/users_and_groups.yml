@@ -1,0 +1,14 @@
+---
+
+- name: Ensure vagrant user exists
+  user: name=vagrant comment="Worker Deploy" uid=33101 shell=/bin/bash
+  tags: users
+
+- name: Ensure exists user pvalentin
+  user:
+    name: pvalentin
+    comment: "Pvalentin"
+    uid: 1001
+    group: root
+    ssh_key_file: ~/.ssh/pvalentinSantander
+    state: present

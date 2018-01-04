@@ -1,0 +1,11 @@
+---
+
+users:
+  a:
+    comment: "a"
+    is_active: true
+    public_keys:
+      live: ~
+      staging: ""
+    shell: /bin/bash
+    uid: "00001"
