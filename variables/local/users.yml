@@ -1,11 +1,18 @@
 ---
 
 users:
-  a:
-    comment: "a"
+  user1:
+    comment: "Usuario de prueba 1"
     is_active: true
-    public_keys:
-      live: ~
-      staging: ""
+    public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDAoTuw+dECuG4LUM5nBAdGp0eriNaggBsovpCMmp8dvoTqIc/6uIf6vUSpFgdRGfa01dKMTjXun2S8MgHuXtIYCrd6qVTA0MSbfktzPjEMwv+0rsL7THRqSsDOwikVNVXSqKxz8HdIEbQnLGozWwiS5g1up+Vw9OJ08QwPJW/UmdELZDcCwmJwMK/B8XJb/k7YUEMPBbFqdqYxnOiDhqSoKpcX4nLdTlbkuNaOznSDCqOQs7o341SYyDfQOy50zElLglttxekKnIRMK4g5cxCTl7YPy+AOVWJfL2u15IsxoVwWKc0XrPsy+W99Dami5FJXhOk+0NwUF5hIgmEe6JGg/zZhQDt/RaXJWHYXuVjb6sb/wRgXgpRsenA9trdhL6iqRrcLQyU0/pdL9ya4x0A4lvMqZUkAOqMmVG09bhr5s1e99n7oZvepslqDnVhsmm0g3aKAAHd4Le2weOc3Mg351xS78fw8f0pyv/mVGUGbGOl3sO18fWFx9HAo8PvAjSeD8oPzCr8gMpN3zqRrB5xW+58YaP3lxjZ7svsdnMBMJhTmfq4lJ44OIx29gsMzdfp42PD6xZUskZzYebDLipH+Hdx2VM3cMg/HUAiSemMSLtFkwtkrO2DDpW79gU5fWU2ikV1BH/UoolM2E8f0tohSKRpkKOC92t08E7SuQ84YLQ== iscpaulavr@gmail.com"
     shell: /bin/bash
-    uid: "00001"
+    uid: 1040
+    group: wheel
+
+  user2:
+    comment: "Usuario de prueba 2"
+    is_active: true
+    public_keys: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC++7snKcavZdW9UO1MVQ4BdntISfsS29MZS5aRLFyEMW4/uFXDX3d3aDtdCY7UJMA9QXMdjOxHhmdptc9elpfOveXvWNdLI0jVI56at6vqnCa26wcQ/lk+VAE2yKQbovyNy0jA0GftlL1z+f7I44AqftgVeYT9OcLwEgHuBzZRhdVw4ydsDzTniUzDml4RfxBf0G4CBZI6euWES0tv+eqMokC8byThpf8ouzm/vQJRVRYKYakYh+9kPkcQtMpQBd0EeVOGMoolkAgSEWgLP00hRLLVGgckVzdfwImrJdS0qQokIJgRmijjKa0iTJiTCZYl0713VXel3jZ104YcIfCfRrxG36S3sNuq2KN11m35VdlBUjc6XJ9Bx3OUDyCbW+KllMu0d5xNNpHGbdwIHJ/XrtwFJnbKI8Ec/em9R5VXFXpRxJN6skXXr4ZBAawwlNOMmVo22sv4lzF0ad7RgwO/LEQOzMpw8No58aCvLgN12CzmAGjDPZXjbpuaGltNn3tI0QVq4ai8baNqDf6UG3THTEVjjZ9wDCyRGXsOmrPiUYmoi/xizpbdQMXi4G4dSnp94lNViHKrEny8tYH5NHSC6sn+VGJM3pOYgfmgr0twckaXvH/XrqjLI+5oqERdX5ofrRuNj1+TtdfRNwzQ5hpwOsu4Dej4tE2+Tcoy6Eqjfw== iscpaulavr@hotmail.com"
+    shell: /bin/bash
+    uid: 1041
+    group: root

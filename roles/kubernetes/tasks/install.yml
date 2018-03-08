@@ -1,0 +1,6 @@
+- name: Ensure that kubernetes services exists
+  apt: name={{ item }} state=installed
+  when_items:
+  - minikube
+  - kubectl
+

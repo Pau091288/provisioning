@@ -1,4 +1,5 @@
 - name: Ensure install git
-  yum: name={{ item }} state=installed
+  become: true
+  apt: name={{ item }} state=installed
   with_items:
   - git

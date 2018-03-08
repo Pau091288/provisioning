@@ -1,6 +1,7 @@
 - hosts: local
   roles:
   - common
+  - users
   #- maven
   #- java
   #- nexus
