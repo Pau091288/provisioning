@@ -14,6 +14,7 @@ Vagrant.configure("2") do |config|
       machine.vm.box = "ubuntu/xenial64"
       machine.vm.network :private_network, ip: host_config[:ip]
 
+
       machine.vm.provider "virtualbox" do |v|
           v.name = name
           v.customize ["modifyvm", :id, "--memory", 2024]
