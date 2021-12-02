@@ -1,5 +1,6 @@
 hosts = {
   "test01"   => { ip: "192.168.50.10", port: 2201 },
+  "test02"   => { ip: "192.168.50.11", port: 2202 }, 
 }
 
 Vagrant.configure("2") do |config|
